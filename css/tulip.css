@@ -1,0 +1,144 @@
+body {
+	background-color: lightblue;
+	color: #221811;
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 30px;	
+}
+header {
+	padding-bottom:.5em;
+	min-width: 800px;
+	max-width: 1000px;
+	margin-right:auto;
+	margin-left: auto;	
+}
+h1 {
+	text-align:center;
+	font-family:  Coronetscript, cursive;
+}
+.logo{
+	background-color: lightblue;
+	background-image: url(../images/logo.png);
+	background-repeat:no-repeat;
+	width: 115px;
+	height: 70px;
+	float:left;
+	margin-right:3em;
+}
+.welcome {
+	width: 1000px;
+    height: 200px;
+    background: url(../images/welcome1.jpg);
+	background-repeat: no-repeat;
+	display:block;
+}
+.container {
+  position: relative;
+  
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+.container:hover .overlay {
+  opacity: 1;
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 17.1%;
+    overflow: hidden;
+    background-color: lightblue;
+	border-bottom: 2px solid #221811;
+	border-top: 2px solid #221811;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+footer {
+	margin-top:5%;
+	text-align: center;
+	font-size: .60em;
+	font-style: italic;
+	padding-bottom: 10px;
+	border-top: 2px solid #221811;	
+}
+#mySubmit {
+	margin-left: 5em;
+}
+* {box-sizing: border-box;}
+blink {
+	-webkit-animation:blink 1s linear infinite;
+	-moz-animation:blink 1s linear infinite;
+	animation:blink 1s linear infinite;
+}
+@-webkit-keyframes blink{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+}
+@-moz-keyframes blink{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes blink{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+}
+.floatleft {
+	margin-left:6em;
+	font-size:20px;
+	max-width:500px;
+	float:left;
+	font-family:  Coronetscript, cursive;
+}
+#click {
+	margin-right:6em;
+	padding-top:1em;
+}
+.products {
+	
+	font-family: arial, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	margin: auto;
+	width: 90%;
+	background-color: gray;
+}
+.products td, th {
+	text-align:center;
+	padding: 10px;
+	border: 1px solid black;
+}
+.products tr:nth-of-type(odd) {
+	background-color: lightgray;
+}
+.products form {
+	padding:2em;
+}
+.floatright {
+	margin-left:1em;
+	float:right;
+	font-family:  arial, sans-serif;
+	padding-right:6em;
+	padding-top:1em;
+}
+#mobile { display: none; }
+
